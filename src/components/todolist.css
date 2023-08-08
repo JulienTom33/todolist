@@ -1,0 +1,72 @@
+.todolist {
+    width: 30vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 2vh;
+    background-color: #95c466;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px grey;   
+}
+
+.todolist h1 {
+    margin-top: 10vh;
+    width: 10vw;
+    margin: auto;   
+    padding: 10px;
+    background-color: #bacea6;
+    border-radius: 10px;
+    border: none;
+    color: #4f504e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.list {
+    margin-top: 5vh;
+    padding: 10px;
+    background-color: #bacea6;
+    border-radius: 10px;
+    border: none;
+    color: #4f504e;
+    font-size: 1.2em;  
+    font-weight: 500;  
+}
+
+.list li {
+    list-style: none;    
+    padding: 3px;
+}
+
+.list li button {
+    width: 4vw;
+    padding: 5px;
+    border-radius: 6px;
+    margin-left: 1vw;
+}
+
+.task_input {
+    margin-top: 10vh;
+    padding: 10px;
+    background-color: #7e8c70;
+    border-radius: 10px;
+    border: none
+}
+
+.task_input input {
+    width: 12vw;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.task_input button {
+    width: 6vw;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 1vw;
+}
+
+.completed {
+    text-decoration: line-through;    
+    color: brown;
+}
